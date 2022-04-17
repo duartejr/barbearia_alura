@@ -94,19 +94,17 @@ footer {
     margin: 20px 0 0;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
 form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+    padding: 0.5em 0;
 }
 
 .input-padrao {
@@ -141,7 +139,9 @@ form label, form legend {
 
 table {
     margin: 20px 2px 40px;
-    font-size: 18px;;
+    font-size: 18px;
+    width: 940px;
+    margin: 10px auto;
 }
 
 thead {
@@ -167,6 +167,13 @@ td, th {
     clear: left;
 }
 
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .principal p {
     margin: 0 0 1em;
 }
@@ -185,12 +192,9 @@ td, th {
     margin: 0 20px 20px 0;
 }
 
-.imagembeneficios {
-    width: 60%;
-}
-
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
 }
 
 .mapa p {
@@ -198,7 +202,44 @@ td, th {
     text-align: center;
 }
 
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;   
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5em;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "★ ";
+}
+
+.imagem-beneficios {
+    width: 60%;
+}
+
 .video {
     width: 560px;
-    margin: 1em auto;
+    margin: 2em auto;
 }
